@@ -1,0 +1,30 @@
+{
+  "name": "deck-on-time",
+  "version": "0.0.1",
+  "description": "Decky plugin to track Steam Deck powered-on time",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "decky",
+    "steam-deck",
+    "uptime",
+    "smartctl",
+    "monitoring"
+  ],
+  "author": "Hop",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@decky/rollup": "^1.0.2",
+    "@decky/ui": "^4.11.0",
+    "@rollup/rollup-linux-x64-musl": "^4.53.3",
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1",
+    "@types/webpack": "^5.28.5",
+    "rollup": "^4.53.3",
+    "typescript": "^5.6.2"
+  }
+}

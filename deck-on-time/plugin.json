@@ -1,0 +1,10 @@
+{
+  "name": "Deck On Time",
+  "author": "Hop",
+  "flags": ["root"],
+  "publish": {
+    "tags": ["system", "uptime", "monitoring", "utility"],
+    "description": "Tracks Steam Deck powered-on time and imports lifetime SSD power-on hours on first run.",
+    "image": "https://placehold.co/512x512/png"
+  }
+}
